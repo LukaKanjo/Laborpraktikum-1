@@ -1,6 +1,25 @@
-ipython==8.12.3
-matplotlib==3.10.6
-numpy==2.3.3
-pandas==2.3.3
-scipy==1.16.2
-uncertainties==3.2.2
+# Liste an Python Packages die für das Laborpraktikum benutzt/gebraucht werden
+
+#Zum installieren mittels dieser datei:
+#pip install -r requirements.txt
+
+## Basic(Necessary) setup
+ipython             #ermöglicht Jupyter files zu laden
+ipykernel           #vscode benötigt das um es im fenster zu laden
+Jupyter             #Jupyter braucht man um Jupyter Notebook files (.ipynb) zu benutzen
+
+## Nützliche tools
+matplotlib          #Um graphen in python zu machen
+numpy               #Um mathematische funktionen/konstanten in python zu benutzen
+pandas              #Um dateien (excel, csv, etc.) zu lesen und mit Python auswerten zu können
+scipy               #Um wissenschaftliche operationen zu ermöglichen (Lineare regression, Numerische DGLs, etc)
+uncertainties       #Um unsicherheiten automatisch mit fehlerfortpflanzung zu rechnen
+
+
+nbconvert           #Um eine Notebook datei in eine PDF zu konvertieren
+# Hierfür muss man Pandoc und Latex auf seinem OS (Linux) installieren:
+# >>> sudo apt update
+# >>> sudo apt install pandoc
+# >>> sudo apt install texlive-xetex texlive-fonts-recommended texlive-latex-recommended texlive-latex-extra
+# Dann einfach im Terminal (bash):
+# >>> jupyter nbconvert --to pdf --no-input Meine_Datei.ipynb
