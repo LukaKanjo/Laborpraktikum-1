@@ -1,11 +1,3 @@
-<<<<<<< HEAD
-ipython==8.12.3
-matplotlib==3.10.6
-numpy==2.3.3
-pandas==2.3.3
-scipy==1.16.2
-uncertainties==3.2.2
-=======
 # Liste an Python Packages die für das Laborpraktikum benutzt/gebraucht werden
 
 #Zum installieren mittels dieser datei:
@@ -31,4 +23,3 @@ nbconvert           #Um eine Notebook datei in eine PDF zu konvertieren
 # >>> sudo apt install texlive-xetex texlive-fonts-recommended texlive-latex-recommended texlive-latex-extra
 # Dann einfach im Terminal (bash):
 # >>> jupyter nbconvert --to pdf --no-input Meine_Datei.ipynb
->>>>>>> 84d543f (Updated requirements)
