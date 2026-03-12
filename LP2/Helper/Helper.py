@@ -29,3 +29,6 @@ def r2_curve_fit(popt, x, y, model_f):
     y_pred = model_f(x, *popt)
     r2 = r2_score(y, y_pred)
     return r2
+
+def linfit(x,a,b):
+    return a*x+b
