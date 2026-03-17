@@ -32,3 +32,4 @@ def r2_curve_fit(popt, x, y, model_f):
 
 def linfit(x,a,b):
     return a*x+b
+
